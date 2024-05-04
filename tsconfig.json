@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/helpers/cloudinary-react.spec.mts", "src/Promise/promise.js", "src/This-KeyWord/this.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/helpers/cloudinary-react.spec.mts", "src/Promise/promise.js", "src/This-KeyWord/this.js", "src/Call-Apply-Bind/index.js", "src/Bind-PollyFill/BlindPollyFill.spec.js"],
   "exclude": ["node_modules"]
 }

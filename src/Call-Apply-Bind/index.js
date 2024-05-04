@@ -3,7 +3,7 @@ let name = {
   lastName: "yadav",
 };
 
-export let printFullName = function (hometown: string, state: string) {
+export let printFullName = function (hometown, state) {
   console.log(
     this.firstName + " " + this.lastName + " from " + hometown + " , " + state
   );

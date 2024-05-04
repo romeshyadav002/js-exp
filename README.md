@@ -16,6 +16,9 @@ git clone https://github.com/romeshyadav002/js-exp.git
 Usage
 Explore the folders and files to find exercises and challenges covering various JavaScript and TypeScript concepts. Feel free to modify the code, write your own functions, and experiment with different approaches. Don't forget to test your solutions using the provided test cases.
 
+for test case file command 
+npm run test --pattern={fileName}
+
 Contributing
 Contributions are welcome! Whether it's fixing a bug, adding new exercises, or improving documentation, every contribution helps make this repository better for the community. See CONTRIBUTING.md for more information on how to contribute.
 
