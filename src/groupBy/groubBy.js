@@ -18,3 +18,18 @@ const user = [
 ];
 
 console.log(groupBy(user, "age"));
+
+Array.prototype.myGroupBy = function (fn) {
+  if (typeof fn !== "function") {
+    throw new TypeError("Invalid params");
+  }
+
+  return this.reduce((acc, item, index, array) => {
+    const key = fn(item, index, array);
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(item);
+    return acc;
+  }, {});
+};
